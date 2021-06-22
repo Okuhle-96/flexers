@@ -1,0 +1,27 @@
+
+.nav-bar{
+    background-color: blue;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    float: right;
+
+}
+
+.nav-bar  a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    background-color: white;
+    color: blue;
+}
