@@ -1,10 +1,17 @@
 
 .nav-bar{
-    background-color: blue;
-    height: 50px;
+    background-color: #020079;
+    height: 60px;
     padding-top: 20px;
     padding-bottom: -20px;
 
+}
+
+.nav-bar img {
+    margin-left: 450px;
+    margin-top: -20px;
+    height: 80px;
+    width: 5%
 }
 
 .nav-bar ul {
@@ -16,12 +23,146 @@
 
 .nav-bar  a{
     text-decoration: none;
-    padding: 30px;
+    padding: 35px;
     color: white;
     font-weight: bold;
 }
 
 .nav-bar a:hover {
     background-color: white;
-    color: blue;
+    color: #020079;
+}
+.home {
+    display: flex;
+}
+.text {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.text h1 {
+    color: #020079;
+    font-size: 70px;
+    line-height: 1.2;
+}
+
+.cat {
+    margin-top: 50px;
+}
+
+.text a {
+    /* font-size: 20px; */
+    font-weight: bolder;
+    text-decoration: none;
+    color: #020079;
+    border: 4px solid #020079;
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+
+.image {
+    background-image: url('../hack.jpg');
+    height: 600px;
+    width: 50%;
+}
+#about {
+    /* background-color: #ccc; */
+    margin-top: 0px;
+}
+.about {
+    height: 650px;
+}
+.map {
+    display: flex;
+    width: 100%;
+    /* margin-top: 20px; */
+
+}
+
+.text-about {
+    background-color: #020079;
+    width: 50%;
+    padding: 30px;
+    height: 600px;
+}
+.text-about p {
+    color: white;
+    text-align: justify;
+}
+.mapping {
+    background-image: url('../medical.png');
+    margin-top: 30px;
+    height: 630px;
+    background-position: right;
+    width: 50%;
+}
+
+.batch img {
+    width: 180px;
+    /* height: 220px; */
+    margin: 20px;
+    float: rights;
+}
+
+.batch {
+    display: flex;
+    
+    /* width: 80%; */
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 20px;
+ 
+}
+
+.text-about a {
+      /* font-size: 20px; */
+      font-weight: bolder;
+      text-decoration: none;
+      color: white;
+      border: 4px solid white;
+      padding: 25px;
+      text-transform: uppercase;
+}
+
+.services {
+    display: flex;
+}
+
+.serv-batch {
+    display: block;
+}
+
+.ser-text {
+    background-color: #020079;
+    /* padding-left: -10px; */
+    height: 400px;
+    width: 40%;
+    padding: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.ser-text p {
+    color: white;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.ser-text a {
+    margin-top: 50px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    border: 4px solid white;
+    padding: 25px;
+    text-transform: uppercase;
+}
+
+#contact {
+    background-image: url("../2.jpg");
+    height: 600px;
+    background-size: cover;
+
+    background-repeat: no-repeat;
 }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../Style/file.css">
+    <link rel="stylesheet" href="../Style/grid.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script> 
+<script id="details-template" type="text/x-handlebars-template">
+	<table>
+        {{this}}
+    </table>
+
+</script>
+	 <div id='mainDiv' class="container">
+	<div id='formDiv'>
+		<form id='demoForm'>
+			<!-- <fieldset> -->
+				<!-- <legend>Register here</legend> -->
+				<table id='regDetails'>
+					<h2 style="color: darkblue; border: 7px solid darkblue; padding: 20px;text-align: center; text-transform: uppercase;">Book your appointment here</h2>
+                    <tr>
+						<td><label for='nameInput'>Form Number</label></td>
+						<td>RP098162R</td>
+					</tr>
+					<tr>
+						<td><label for='nameInput'>Full Name</label></td>
+						<td><input class="input" type='text' id='nameInput' placeholder="Please Enter Your Name"/></td>
+					</tr>
+					<tr>
+						<td><label for='ageInput'>Age</label></td>
+						<td><input class="input" type='number' id='ageInput'/></td>
+					</tr>
+                    <tr>
+						<td><label for='ageInput'>Cell Number</label></td>
+						<td><input class="input" placeholder="+2734567890" type='number' id='ageInput'/></td>
+					</tr>
+                    <tr>
+						<td><label for='ageInput'>Alternative Number</label></td>
+						<td><input class="input" type='number' placeholder="+2734567890" id='ageInput'/></td>
+					</tr>
+
+                    <tr>
+						<td><label for='ageInput'>Preferable Slot</label></td>
+						<td><input class="input" type='datetime-local' id='ageInput'/></td>
+					</tr>
+                    <tr>
+						<td><label style="padding-top: -100px;" class="popo"for='ageInput'>Reason for visit</label></td>
+						<td><input class="input" type='text' placeholder="Please State Your Reason Here" id='popo'/></td>
+					</tr>
+					<tr>
+                   
+						<td colspan='3'><input class="input" type='submit' id='submitButton'/></td>
+					</tr>
+				</table>
+			<!-- </fieldset> -->
+		</from>
+	</div>
+	<div id='detailsBox'></div>
+</div>
+<script>
+$(document).ready( function() {
+var templateSource = $("#details-template").html();
+
+
+var template = Handlebars.compile(templateSource);
+
+});
+</script>
+</html>

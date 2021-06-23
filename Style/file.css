@@ -1,0 +1,31 @@
+#regDetails{
+ border: 10px solid white;
+ width: 80%;
+ margin: auto;
+ height: 700px;
+}
+
+label {
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input {
+    border: 3px solid darkblue;
+    border-radius: 3px;
+    padding: 10px;
+    width: 305px
+}
+
+#popo{
+    border: 3px solid darkblue;
+    border-radius: 3px;
+    padding: 10px;
+    width: 305px;
+    height: 200px;
+}
+
+.popo {
+    margin-top: -100px;
+}
