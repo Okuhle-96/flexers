@@ -2,28 +2,29 @@
 .nav-bar{
     background-color: #020079;
     height: 60px;
-    padding-top: 20px;
-    padding-bottom: -20px;
+    padding-top: 30px;
+    /* padding-bottom: -20px; */
 
 }
 
 .nav-bar img {
     margin-left: 450px;
-    margin-top: -20px;
-    height: 80px;
-    width: 5%
+    margin-top: -40px;
+    height: 100px;
+    width: 7%
 }
 
 .nav-bar ul {
     list-style: none;
     display: flex;
+    margin-left: -100px;
     float: right;
 
 }
 
 .nav-bar  a{
     text-decoration: none;
-    padding: 35px;
+    padding: 40px;
     color: white;
     font-weight: bold;
 }
@@ -99,24 +100,52 @@
 }
 
 .batch img {
-    width: 180px;
-    /* height: 220px; */
-    margin: 20px;
-    float: rights;
+    width: 195px;
+    height: 180px;
+    /* margin: 20px; */
+    /* float: rights; */
 }
+
+.batch a {
+    /* border: 10px solid #020079; */
+    border-radius: 10px 0 10px 0;
+    margin: 0px 10px;
+    color: #020079;
+    /* background-color: #020079; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    /* text-align: justify; */
+    /* margin-right: 10px; */
+}
+
+.batch h3 {
+    color: slategray;
+    border-left: 30px solid slategray;
+    border-right: 30px solid slategray;
+    /* text-transform: uppercase; */
+    text-align: center;
+    /* font-weight: bolder; */
+    border-radius: 5px ;
+    /* margin-left: 10px; */
+    padding-left: 10px;
+    margin-top: 5px;
+    padding-right: 10px;
+}
+
 
 .batch {
     display: flex;
     
     /* width: 80%; */
-    margin: auto;
-    margin-bottom: 20px;
+    /* margin: auto; */
+    /* margin-bottom: 10px; */
     margin-left: 20px;
  
 }
 
 .text-about a {
       /* font-size: 20px; */
+      /* background-color: ; */
       font-weight: bolder;
       text-decoration: none;
       color: white;
@@ -136,8 +165,8 @@
 .ser-text {
     background-color: #020079;
     /* padding-left: -10px; */
-    height: 400px;
-    width: 40%;
+    height: 455px;
+    width: 25%;
     padding: 30px;
     color: white;
     margin-top: 10px;
@@ -155,14 +184,115 @@
     text-decoration: none;
     color: white;
     border: 4px solid white;
-    padding: 25px;
+    padding: 20px;
     text-transform: uppercase;
 }
 
 #contact {
+    padding-top:100px ;
+    padding-bottom:100px ;
     background-image: url("../2.jpg");
-    height: 600px;
+    height: 700px;
     background-size: cover;
 
     background-repeat: no-repeat;
+}
+
+.dott {
+    display: flex;
+}
+
+.doc {
+    width: 30%;
+    height: 640px;
+    margin: 20px;
+    border: 10px solid #020079;
+    background-color: #020079;
+}
+
+.doc img{
+    width: 260px;
+    height: 260px;
+}
+
+.doc a {
+    /* margin-top: 50px; */
+    font-weight: bolder;
+    text-decoration: none;
+    color: #020079;
+    background-color: white;
+    padding: 25px;
+    text-transform: uppercase; 
+    margin: 20px;
+}
+
+.doc h5, .doc  h3, .doc  p {
+color: white;
+margin: 20px;
+}
+
+.doc  p {
+    padding-bottom: 30px;
+    text-align:justify;
+}
+
+.contact {
+    background-color: white;
+  height: 700px;
+  display: flex;
+}
+
+.contact h2 {
+    color: #020079;
+    font-weight: bolder;
+    /* font-size: 60px; */
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.contact img {
+    border: 10px solid white;
+    border-radius: 50%;
+    height: 70px;
+}
+.con {
+    width: 60%;
+    margin: 30px;
+}
+
+.review {
+    width: 40%;
+    float: right;
+    background-color: #020079;
+    /* margin-right: -20px; */
+    margin: 30px;
+    padding: 20px;
+}
+
+.review h3 {
+    color: white;
+}
+
+.review label {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.review input {
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.review button {
+    border: 2px solid white;
+    color: #020079;
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+    width: 300px;
+    padding: 17px;
+    margin-top: 30px;
 }

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7/css/font-awesome.min.css">
     <link rel="stylesheet" href="./Style/style.css">
     <link rel="stylesheet" href="./Style/grid.css">
-    <title>Home | FD</title>
+    <title>Home | Flexible Doctors</title>
 </head>
 <body class="row">
     <!-- <div>
@@ -20,10 +20,10 @@
         <img src="../FLEX.png" alt="">
         <ul class="container">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#doctors">Our Doctors</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <div class="container home">
@@ -83,22 +83,41 @@
                 <a href="./Html/file.html">Book Appointment</a>
             </div>
 
-            <!-- <div class="serv-batch">
-                <div class="batch">
-            
-                    <img src="./consulting.jpg" alt="">
-                   <img src="./diagnosis.jpg" alt="">
-                   <img src="./Treatment.jpg" alt="">
-          
+            <div class="serv-batch">
+                <div style="margin-top:35px;" class="batch">
+                    <a href="">
+                        <img src="./consulting.jpg" alt="">
+                        <h3>Consulting</h3>
+                    </a>
+                    <a href="">
+                        <img src="./diagnosis.jpg" alt="">
+                        <h3>Diagnosis</h3>
+                    </a>
+                    <a href="">
+                        <img height="120px" src="./Treatment.jpg" alt="">
+                        <h3>Treatment</h3>
+                    </a>
                 </div>
-                <div class="batch">
-                <img src="./pediatric.webp" alt="">
-                   <img src="./pregnancy.jpg" alt="">
-                   <img src="./online-help.jpg" alt="">
+
+                <div class="batch" style="margin-top:10px;" >
+                    <a href="">
+                        <img  height="120px"src="./pediatric.webp" alt="">
+                        <h3>Pediatric</h3>
+                    </a>
+               <a href="">
+                <img src="./pregnancy.jpg" alt="">
+                <h3>Pregnancy</h3>
+               </a>
+               <a href="">
+                <img src="./online-help.jpg" alt="">
+                <h3>24/7</h3>
+               </a>
+                   
+                   
                 </div>
             </div>
             
-          </div> -->
+          </div>
 
         
 
@@ -110,34 +129,73 @@
 
     </section>
 
-    <!-- <section id="doctors">
+    <section id="doctors">
         <div class="container" class="doctors">
             <h1 style="text-align: center; color: darkblue;">Our Doctors</h1>
-            <div>
-                <div>
-                    <a href="#">
+            <div class="dott">
+                <div class="doc">
+                    <!-- <a href="#"> -->
                     <img src="gynae.jpg" alt="">
-                    </a>
+                    <!-- </a> -->
                     <h5>Dr Saltzman</h5>
                     <h3>Dentist</h3>
+                    <p>Situated in Khayelitsha, Dr Oben is a friendly and a busy Doctor. Who loves helping people.</p>
+                    
+                <a href="./Html/file.html">Book Appointment</a>
                 </div>
-                <div>
-                    <img src="therapist.jpg">
+                <div class="doc">
+                    <img src="./oben.jpg">
                     <h5>Dr Sterwart</h5>
                     <h3>Family Doctor</h3>
+                    <p>Situated in Khayelitsha, Dr Oben is a friendly and a busy Doctor. Who loves helping people.</p>
+
+                <a href="./Html/file.html">Book Appointment</a>
                     
                 </div>
-                <div>
+                <div class="doc">
                     <img src="brain.jpg" alt="">
                     <h5>Dr Mawuso</h5>
                     <h3>General Practioner</h3>
+                    <p>Situated in Khayelitsha, Dr Oben is a friendly and a busy Doctor. Who loves helping people.</p>
+
+                <a href="./Html/file.html">Book Appointment</a>
                 </div>
             </div>
-            <button>Meet All Doctors</button>
+            <!-- <button>Meet All Doctors</button> -->
         </div>
-    </section> -->
+    </section>
 
     <section id="contact">
+
+     <div class="container contact">
+         <div class="con">
+             <div></div>
+            <div style="display: flex;">
+                <img src="../FLEX.png" alt="">
+                <h4>Thank you for visiting Flexible Doctors</h4>
+             </div>
+         </div>
+
+         <div class="review">
+             <h3>Rate your Dr here</h3>
+             <label style=" margin-right: 30px;" for="">Full Name</label><input type="text"><br>
+             <label style=" margin-right: 76px;" for="">Field</label><input type="text"><br>
+             <label style=" margin-top: 20px;" for="">Pick your rating:</label>
+             <div  style=" margin: 5px;">
+                <label style=" margin-right: 86px;" for="">Bad</label><input style=" border: 2px solid white; border-radius: 0;"  type="checkbox"><br>
+                <label style=" margin-right: 73px;" for="">Poor</label><input style=" border: 2px solid white; border-radius: 0;" type="checkbox"><br>
+                <label style=" margin-right: 85px;" for="">Fair</label><input style=" border: 2px solid white; border-radius: 0;" type="checkbox"><br>
+                <label style=" margin-right: 70px;" for="">Good</label><input style=" border: 2px solid white; border-radius: 0;" type="checkbox"><br>
+                <label style=" margin-right: 30px;" for="">Excellent</label><input style=" border: 2px solid white; border-radius: 0;" type="checkbox"><br>
+             </div>
+            
+             <label style=" margin-right: 30px;" for="">Comment</label><input type="textbox"><br>
+            <button>SUBMIT REVIEW FEEDBACK</button>
+             
+         </div>
+         
+      
+     </div>
 
     </section>
 <!-- 
