@@ -23,59 +23,50 @@
 </script>
 	 <div id='mainDiv' class="container">
 	<div id='formDiv'>
-		<form id='demoForm'>
-			<!-- <fieldset> -->
-				<!-- <legend>Register here</legend> -->
+		<form id='demoForm'> 
+			
+			 
 				<table id='regDetails'>
-					<h2 style="color: darkblue; border: 7px solid darkblue; padding: 20px;text-align: center; text-transform: uppercase;">Book your appointment here</h2>
+					<h2 class="header" style="color: darkblue; border: 7px solid darkblue; padding: 20px;text-align: center; text-transform: uppercase;"></h2>
                     <tr>
 						<td><label for='nameInput'>Form Number</label></td>
-						<td>RP098162R</td>
+						<td class="formNo">RP098162R</td>
 					</tr>
 					<tr>
 						<td><label for='nameInput'>Full Name</label></td>
-						<td><input class="input" type='text' id='nameInput' placeholder="Please Enter Your Name"/></td>
+						<td><input class="input name"  type='text' id='nameInput' placeholder="Please Enter Your Name"/></td>
 					</tr>
 					<tr>
 						<td><label for='ageInput'>Age</label></td>
-						<td><input class="input" type='number'  id='ageInput'/></td>
+						<td><input class="input age" type='number'  id='ageInput'/></td>
 					</tr>
 					<tr>
 						<td><label for='ageInput'>Cell Number</label></td>
-						<td><input class="input" placeholder="+2734567890" type='text' id='ageInput'/></td>
+						<td><input class="input number" placeholder="+2734567890" type='text' id='ageInput'/></td>
 					</tr>
 					<tr>
-						<td><label for='ageInput'>Alternative Number</label></td>
-						<td><input class="input" type='text'placeholder="+2734567890" id='ageInput'/></td>
+						<td><label for='ageInput'>Email Address</label></td>
+						<td><input class="input email" type='email'placeholder="user@work.com" id='ageInput'/></td>
 					</tr>
                    
                   
 
                     <tr>
 						<td><label for='ageInput'>Preferable Slot</label></td>
-						<td><input class="input" type='datetime-local' id='ageInput'/></td>
+						<td><input class="input date" type='datetime-local' id='ageInput'/></td>
 					</tr>
                     <tr>
 						<td><label style="padding-top: -100px;" class="popo"for='ageInput'>Reason for visit</label></td>
-						<td><input class="input" type='text' placeholder="Please State Your Reason Here" id='popo'/></td>
+						<td><input class="input reason" type='text' placeholder="Please State Your Reason Here" id='popo'/></td>
 					</tr>
 					<tr>
                    
-						<td colspan='3'><input class="input" type='submit' id='submitButton'/></td>
+						<td colspan='3'><button class="input button" type='submit' id='submitButton' value="Submit Form">Submit Form</button></td>
 					</tr>
 				</table>
-			<!-- </fieldset> -->
 		</from>
 	</div>
 	<div id='detailsBox'></div>
 </div>
-<script>
-$(document).ready( function() {
-var templateSource = $("#details-template").html();
-
-
-var template = Handlebars.compile(templateSource);
-
-});
-</script>
+<script src="../JavaScript/index.js"></script>
 </html>

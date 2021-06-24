@@ -20,7 +20,7 @@ function doctors() {
  ]
 
  function getDoctors() {
-return doctors;
+    return doctors;
  }
 
  return {
