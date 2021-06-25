@@ -1,5 +1,5 @@
 function doctors() {
-    var doctors =[{name: "Dr Mendu", field: "Dentistry", fee:300}, 
+    var doctors =[{name:"Dr Mendu", field: "Dentistry", fee:300}, 
                  {name: "Dr Mendu", field: "Dentistry", fee:300},  
                  {name: "Dr Mendu", field: "Dentistry", fee:300},  
                  {name: "Dr Mendu", field: "Dentistry", fee:300},  

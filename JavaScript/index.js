@@ -8,11 +8,22 @@ var reasonElement = document.querySelector(".reason");
 var addAppElement = document.querySelector(".button");
 var headerElement = document.querySelector(".header")
 
-var appointments = [];
+var details
 
-function getAppointments(){
+var appointments = [];
+var name;
+var email;
+var age;
+var number;
+
+
+function bookAppointments(){
+    
+    
     
 }
+
+addAppElement.addEventListener('click', bookAppointments)
 
 
 
