@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../Style/file.css">
+
     <link rel="stylesheet" href="../Style/grid.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
@@ -22,12 +23,14 @@
 
 </script> -->
 	 <div id='mainDiv' class="container">
+		
 	<div id='formDiv'>
-		<form id='demoForm'> 
+		<div` id='demoForm'> 
 			
 			 
-				<table id='regDetails'>
-					<h2 class="header" style="color: darkblue; border: 7px solid darkblue; padding: 20px;text-align: center; text-transform: uppercase;"></h2>
+				<table id='regDetails'><div class="head">
+					<img src="../Images/FLEX.png" alt=""><h2>Flexible Doctors<br> Appointment Form</h2>
+				</div> 
                     <tr>
 						<td><label for='nameInput'>Form Number</label></td>
 						<td class="formNo">RP098162R</td>
@@ -61,10 +64,10 @@
 					</tr>
 					<tr>
                    
-						<td colspan='3'><button class="input button" type='submit' id='submitButton' value="Submit Form">Submit Form</button></td>
+						<td colspan='3'><button class="input button" id='submitButton' >Submit Form</button></td>
 					</tr>
 				</table>
-		</from>
+			</div>
 	</div>
 	<div class="error"></div>
 	<div class="success"></div>

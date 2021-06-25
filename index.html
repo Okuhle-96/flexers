@@ -23,8 +23,8 @@
         <ul class="container">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#doctors">Doctors</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="./Html/contact.html">Doctors</a></li>
+            <li><a href="#contact">Rate</a></li>
         </ul>
     </div>
     <div class="container home">
@@ -59,7 +59,7 @@
 
                     <p style="font-weight: bolder;">We try to do our best to help you and provide with a high-quality services.</p>
 
-                    <div class="cat"><a href="./Html/file.html">MORE ABOUT US</a></div>
+                    <div class="cat"><a href="./Html/contact.html">MORE ABOUT US</a></div>
                 
             </div>
          </div>
@@ -85,91 +85,77 @@
                     <!-- <a href="#"> -->
                     <img src="./Images/gynae.jpg" alt="">
                     <!-- </a> -->
-                    <h5>Dr Saltzman</h5>
-                    <h3>Dentist</h3>
-                    <p>Situated in Khayelitsha, Dr Oben is a friendly and a busy Doctor. Who loves helping people.</p>
+                    <h5>A VARIETY OF</h5>
+                    <h3>Dentists</h3>
+                    <p>We have a variety of diverse and friendly Dentists. They are available for any dental related queries.</p>
                     
-                <a href="./Html/file.html">Book Appointment</a>
+                <a href="./Html/dentists.html">SEE ALL DOCTORS</a>
                 </div>
                 <div class="doc">
                     <img src="./Images/oben.jpg">
-                    <h5>Dr Sterwart</h5>
-                    <h3>Family Doctor</h3>
-                    <p>Situated in Khayelitsha, Dr Oben is a friendly and a busy Doctor. Who loves helping people.</p>
+                    <h5>A VARIETY OF</h5>
+                    <h3>Family Doctors</h3>
+                    <p>We have a variety of diverse and friendly Family Doctors. They are available for any family related queries.</p>
 
-                <a href="./Html/file.html">Book Appointment</a>
+                <a href="./Html/familyDoc.html">SEE ALL DOCTORS</a>
                     
                 </div>
                 <div class="doc">
                     <img src="./Images/brain.jpg" alt="">
-                    <h5>Dr Mawuso</h5>
+                    <h5>A VARETY OF</h5>
                     <h3>General Practioner</h3>
-                    <p>Situated in Khayelitsha, Dr Oben is a friendly and a busy Doctor. Who loves helping people.</p>
+                    <p>We have a variety of friendly General Practiotioners. They are available for any general related queries.</p>
 
-                <a href="./Html/file.html">Book Appointment</a>
+                <a href="./Html/general.html">SEE ALL DOCTORS </a>
                 </div>
             </div>
-            <!-- <button>Meet All Doctors</button> -->
         </div>
+
+        <div class="container link"><a href="./Html/contact.html">SEE ALL FLEXIBLE DOCTORS </a></div>
+
     </section>
 
     <section id="contact">
-
+        <div class="success"></div>
      <div class="container contact">
          <div class="con">
-             <div></div>
-            <div style="display: flex;">
-                <img src="./Images/FLEX.png" alt="">
-                <h4>Thank you for visiting Flexible Doctors</h4>
+            
+            <div style="display: block; ">
+                <div class="error"></div>
+                
+                <div class="review" style="display: block;padding-top: 20px; ">
+                    <h3>Rate your Dr here</h3>
+                    <label style=" margin-right: 30px;" for="">Full Name</label><input type="text" placeholder="Enter Doctor's Name" class="doctorNames"><br>
+                    <!-- <label style=" margin-right: 76px;" for="">Field</label><input type="text" class="docRate"><br> -->
+                    <label style=" margin-top: 20px;" for="">Pick your rating:</label>
+                    <div  class="checkboxes" style=" margin: 5px; display:flex;">
+                       <label style=" " for="">1 - Bad</label><input   value="1" style=" border: 2px solid white; border-radius: 0;"  type="radio" name="rating" ><br>
+                       <label style=" margin-left: 20px;"  for="">2 - Poor</label><input value="2" style=" border: 2px solid white; border-radius: 0;" type="radio" name="rating" ><br>
+                       <label style=" margin-left: 20px;" for="">3 - Fair</label><input  value="3" style=" border: 2px solid white; border-radius: 0;" type="radio" name="rating" ><br>
+                       <label style=" margin-left: 20px;" for="">4 - Good</label><input  value="4" style=" border: 2px solid white; border-radius: 0;" type="radio" name="rating" ><br>
+                       <label style=" margin-left: 20px;" for="">5 - Excellent</label><input value="5" style=" border: 2px solid white; border-radius: 0;" type="radio" name="rating"><br>
+                    </div>
+                    <label style=" margin-right: 30px;" for="">Comment</label><input type="textbox"><br>
+                   <button class="reviewButton" type="submit">SUBMIT REVIEW</button>
+                </div>
+             </div>
+        
+<div style="display: flex;  margin-left: 20px;  color: #020079;">
+    <img src="./Images/FLEX.png" alt="">
+    <h4 style="display: flex;   border-left: 20px solid yellow; padding-left: 20px; color: #020079;">Thank you for visiting Flexible Doctors</h4><a style="border: 7px solid #020079; text-decoration: #020079; font-size: 20; font-weight: bolder; width: 300px; text-align: center; padding: 10px; height: 25px; padding-bottom: 20px;margin-left: 20px; margin-top: 15px;  color: #020079;" href="./Html/about.html">SEE DOCTORS REVIEWS</a>
+</div>
+                
              </div>
          </div>
 
-         <div class="review">
-            <h3>Rate your Dr here</h3>
-            <label style=" margin-right: 7px;" for="">Doctor Name</label><select ><option value="Select">Select a Doctor</option>
-                <option value="mendu">Dr Mendu</option>
-                <option value="saltz">Dr Saltzman</option>
-                <option value="odi">Dr Odinywe</option>
-                <option value="mika">Dr Mikaelson</option>
-                <option value="xaba">Dr Xaba</option>
-                <option value="rala">Dr Ralasi</option>
-                <option value="mha">Dr Raaj</option>
-                <option value="nkc">Dr Boateng</option>
-                <option value="ster">Dr Sterwart</option>
-                <option value="kha">Dr Khaliq</option>
-                <option value="le">Dr Le Roux</option>
-                <option value="van">Dr Van Herdeen.</option></select><br>
 
-            <label style=" margin-right: 30px;" for="">Field</label><select name="" id="">
-                <option value="fields">Select a Field</option>
-                <option value="">Dentistry</option>
-                <option value="">Gynacology</option>
-                <option value="">Dermatology</option>
-            </select><br>
-            <label style=" margin-top: 20px;" for="">Pick your rating:</label>
-            <div class="rating" style=" margin: 5px;">
-
-               <label class="full" style=" margin-right: 86px;" for="field-star1">1 - Bad</label><input class="1" style=" border: 2px solid white; border-radius: 0;"  value="1" name="rating" id="field-star1" type="radio"><br>
-
-               <label class="full" style=" margin-right: 73px;" for="field-star2">2 - Poor</label><input class="2" style=" border: 2px solid white; border-radius: 0;" value="2" name="rating" id="field-star2" type="radio"><br>
-
-               <label class="full" style=" margin-right: 85px;" for="field-star3">3 - Fair</label><input class="5" style=" border: 2px solid white; border-radius: 0;" value="3" name="rating" id="field-star3" type="radio"><br>
-
-               <label class="full" style=" margin-right: 70px;" for="field-star4">4 - Good</label><input class="4" style=" border: 2px solid white; border-radius: 0;" value="4" name="rating" id="field-star4" type="radio"><br>
-
-               <label class="full" style=" margin-right: 30px;" for="field-star5">5 - Excellent</label><input class="5" style=" border: 2px solid white; border-radius: 0;" value="5" name="rating" id="field-star5" type="radio"><br>
-
-            </div>
-            <label class="full" style=" margin-right: 30px;" for="">Comment</label><input type="textbox"><br>
-           <button>SUBMIT REVIEW</button>
-        </div>
          
       
-     </div>
 
     </section>  
     
 </body>
 <script src="../JavaScript/index.js"></script>
+<script src="JavaScript/factory.js"></script>
 <script src="./JavaScript/rate.js"></script>
 </html>

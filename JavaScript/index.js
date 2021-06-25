@@ -8,19 +8,23 @@ var reasonElement = document.querySelector(".reason");
 var addAppElement = document.querySelector(".button");
 var headerElement = document.querySelector(".header")
 
-var details
+var error = document.querySelector('.error');
+var success = document.querySelector('.success');
 
 var appointments = [];
-var name;
-var email;
-var age;
-var number;
-
 
 function bookAppointments(){
-    
-    
-    
+
+  var name = nameElement.value;
+  var email = emailEleement.value;
+  var age = ageElement.value;
+  var number = numberElement.value;
+  
+  if(name == "" || email == "" || age == "" || number == ""){
+      alert("Please fill the appropriate fields");
+  }else {
+      alert("Hi " + name + " your appointement has been scheduled for " + dateElement)
+  }
 }
 
 addAppElement.addEventListener('click', bookAppointments)
